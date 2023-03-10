@@ -1,0 +1,10 @@
+import math
+print('Nhap hai canh ke cua tam giac vuong: ')
+x=int(input())
+y=int(input())
+n=pow(x,2)+pow(y,2)
+z=math.sqrt(n)
+t=round(z,2)
+print('Canh ke thu nhat la:',x)
+print('Canh ke thu hai la:',y)
+print('Co canh huyen = ',t)
